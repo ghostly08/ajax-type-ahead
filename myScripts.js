@@ -24,7 +24,7 @@ function displayMatches() { //To display the resolts while we are typing
         <span class="population">${place.population}</span>
       </li>
     `
-  }).join('');
+  }).join(''); //for the order in whitch each element displays.
   suggestions.innerHTML = html;
 }
 
